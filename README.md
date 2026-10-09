@@ -4,36 +4,36 @@ Welcome! This repository contains my two Excel capstone projects on the global d
 
 ---
 
-## 🎯 Executive Overview
+---
 
-This portfolio evaluates global data analytics job market trends, compensation benchmarks, and in-demand technical skills. By structuring data pipelines and interactive user interfaces, this project addresses two core analytical objectives:
+## 🎯 Overview
 
-1. **Interactive Salary & Market Dashboard:** A visual interface enabling dynamic filtering of compensation dynamics based on job titles, regions, and employment types.
-2. **Exploratory Market Analysis:** A deep-dive relational data model identifying high-value technical skill stacks and regional pay disparities.
+This portfolio looks at the global data analytics job market: salaries, locations and in-demand skills. It has two projects:
+
+1. **Interactive Salary Dashboard:** compare compensation by job title, country and employment type.
+2. **Exploratory Skill Analysis:** a relational data model that shows which skills are linked to higher pay.
 
 ---
 
 ## 📁 Portfolio Projects
 
-### 📊 [Project 1: Data Jobs Salary & Market Dashboard](./Project_1-Dashboard/README.md)
+### 📊 [Project 1: Salary Dashboard](./Project_1-Dashboard/README.md)
 
-* **Objective:** Built a user-friendly, interactive dashboard to help job seekers and hiring managers benchmark global data analytics salaries.
-* **Architecture & Build:**
-  * **Data Pipeline:** Standardized raw job posting records and dynamically filtered multi-criteria parameters.
-  * **Interactive Layout:** Engineered dynamic bar charts and automated global map charts to visually highlight salary tiers.
-  * **User Experience (UX):** Integrated custom data validation controls and dynamic slicers allowing users to slice compensation data by job title, country, and employment type seamlessly.
+- **Objective:** an interactive dashboard to benchmark data analytics salaries.
+- **What I built:**
+  - A multi-criteria array formula (`MEDIAN(IF())`) that returns median salary by job title, country and schedule type.
+  - Dropdown selectors built with data validation and dynamic arrays (`FILTER`).
+  - A ranked bar chart and a country map chart.
 
 ---
 
-### 🔍 [Project 2: Exploratory Market & Skill Analysis](./Project_2-Analysis/README.md)
+### 🔍 [Project 2: Skill Analysis](./Project_2-Analysis/README.md)
 
-
-* **Objective:** Conducted an end-to-end exploratory data analysis (EDA) to evaluate which technical skills yield the highest return on investment in salary negotiations.
-* **Architecture & Build:**
-  * **Power Query ETL:** Automated data extraction and schema transformation, splitting raw records into clean relational entities (Job Details & Skill Mappings).
-  * **Power Pivot Data Model:** Constructed a 1-to-Many (`1:*`) relational data model connected via unique job identifiers.
-  * **Business Intelligence Insights:** Designed multi-axis combo charts and custom DAX measures to analyze skill likelihood against median salary distributions.
-
+- **Objective:** analyse which technical skills are associated with higher salaries.
+- **What I built:**
+  - **Power Query:** split raw job postings into two clean tables (job details and skill mappings).
+  - **Power Pivot:** a one-to-many (`1:*`) data model linked by a unique job ID.
+  - **DAX and charts:** custom measures and combo charts comparing skill demand against median salary.
 ---
 ## 🛠️ Key Skills
 
