@@ -43,9 +43,11 @@ This portfolio evaluates global data analytics job market trends, compensation b
 
 ---
 
+
 ## 📌 Conclusion
 
-This portfolio demonstrates an end-to-end data analytics workflow—from automated Power Query ETL pipelines and Power Pivot relational data modeling to dynamic Excel visualizations. By analyzing real-world job posting data, these projects highlight how multi-skill proficiency (SQL, Python, Cloud) and interactive business intelligence directly drive higher compensation and data-driven decision-making.
+
+These two projects take real job posting data through cleaning, modeling and visualization in Excel. The analysis shows that skills such as SQL, Python and cloud tools are associated with higher median salaries.
 
 ---
 
