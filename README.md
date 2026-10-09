@@ -35,12 +35,11 @@ This portfolio evaluates global data analytics job market trends, compensation b
   * **Business Intelligence Insights:** Designed multi-axis combo charts and custom DAX measures to analyze skill likelihood against median salary distributions.
 
 ---
+## 🛠️ Key Skills
 
-## 🛠️ Key Technical Competencies
-
-* **Data Engineering & ETL:** Automated Data Cleaning, Power Query M-Logic, Text Transformation, Schema Normalization.
-* **Data Modeling & Analytics:** Relational Data Modeling (Power Pivot), Star Schemas, Custom DAX Calculated Measures.
-* **Visualization & UX:** Dynamic Slicers, Multi-Axis Pivot Charts, Regional Map Visuals, Custom Data Validation.
+- **Data cleaning:** Power Query (text transformation, splitting tables)
+- **Data modeling:** Power Pivot relational model, custom DAX measures
+- **Visualization:** map charts, bar and combo charts, data validation dropdowns
 
 ---
 
